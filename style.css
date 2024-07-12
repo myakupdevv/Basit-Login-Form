@@ -35,11 +35,7 @@ body {
     outline: 0px;
 }
 
-.user-name:hover {
-    box-shadow: 0px 0px 0px black;
-}
-
-.password:hover {
+.user-name:activate {
     box-shadow: 0px 0px 0px black;
 }
 
@@ -50,6 +46,10 @@ body {
     box-shadow: 1px 1px 2px black;
     transition: box-shadow, cubic-bezier(1,0,0,1), 0.5s;
     outline: 0px;
+}
+
+.password:activate {
+    box-shadow: 0px 0px 0px black;
 }
 
 .login {
