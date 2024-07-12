@@ -1,0 +1,69 @@
+body {
+    margin: 0px 0px;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title {
+    position: absolute;
+    font-family: Arial;
+    top: 15%;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+}
+
+
+.user-name, .password, .login {
+    position: absolute;
+    width: 200px; 
+    height: 30px;
+}
+
+.user-name {
+    top: 30%;
+    border-radius: 8px;
+    border: solid 2px;
+    box-shadow: 1px 1px 2px black;
+    transition: box-shadow, cubic-bezier(1,0,0,1), 0.5s;
+    outline: 0px;
+}
+
+.user-name:hover {
+    box-shadow: 0px 0px 0px black;
+}
+
+.password:hover {
+    box-shadow: 0px 0px 0px black;
+}
+
+.password {
+    top: 35%;
+    border: solid 2px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px black;
+    transition: box-shadow, cubic-bezier(1,0,0,1), 0.5s;
+    outline: 0px;
+}
+
+.login {
+    top: 43%;
+    height: 45px;
+    border-radius: 18px;
+    border: solid 2px;
+    font-size: 16px;
+    font-family: Arial;
+    box-shadow: 0px 1px 2px black;
+    transition: box-shadow, ease-out, 0.5s;
+    cursor: pointer;
+}
+
+.login:hover {
+    box-shadow: 0px 2px 3px black;
+}
